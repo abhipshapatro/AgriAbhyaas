@@ -32,7 +32,7 @@ export default function Carousel() {
                <img src="images/Rectangle 444.png" alt="" />
             </div>
             <div className="card-title">
-               <h5>Mathematics</h5>
+               <h5>English</h5>
             </div>
          </div>
       </div>
@@ -52,7 +52,7 @@ export default function Carousel() {
                <img src="images/Rectangle 444.png" alt="" />
             </div>
             <div className="card-title">
-               <h5>Mathematics</h5>
+               <h5>English</h5>
             </div>
          </div>
       </div>
@@ -69,10 +69,10 @@ export default function Carousel() {
       <div className="card-wrapper">
          <div className="card">
             <div className="card-image">
-               <img src="images/Rectangle 425.png" alt="" />
+               <img src="images/Rectangle 444.png" alt="" />
             </div>
             <div className="card-title">
-               <h5>Mathematics</h5>
+               <h5>English</h5>
             </div>
          </div>
       </div>
@@ -89,10 +89,10 @@ export default function Carousel() {
       <div className="card-wrapper">
          <div className="card">
             <div className="card-image">
-               <img src="images/Rectangle 425.png" alt="" />
+               <img src="images/Rectangle 444.png" alt="" />
             </div>
             <div className="card-title">
-               <h5>Mathematics</h5>
+               <h5>English</h5>
             </div>
          </div>
       </div>

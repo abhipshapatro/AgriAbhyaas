@@ -60,16 +60,102 @@
 
 .question-section{
   height: 70vh;
-  background-color: yellow;
+  
+  display: flex;
+
 }
 
 .question-section-left{
-  width: 30%;
-  background-color: green;
+  width: 10%;
+  /* background-color: green; */
   height: 70vh;
 }
 .question-section-right{
-  width: 30%;
+  width: 90%;
   height: 70vh;
+  border: 1px solid red;
+  background-color: lightcyan;
+  padding: 50px;
 }
 
+.dropbtn {
+  background-color: white;
+  color:gray;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  
+}
+.dropdown {
+  position: relative;
+  display: flex;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: green}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.question-container{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.question-container > h3{
+  padding: 10px;
+  margin-right: 10px; 
+}
+.question-container > p{
+  margin: 0 auto;
+}
+.question-container > p:nth-child(2){
+  margin: 0;
+}
+.options > label{
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.options > label > input{
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.btns > button{
+  display: inline-block;
+  padding: 5px;
+  margin-left: 14px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
+#ans-sol{
+  background-color: #3e8e41;
+}
+#discuss{
+  background-color: darkgray;
+}
+#save{
+  background-color: blue;
+}
