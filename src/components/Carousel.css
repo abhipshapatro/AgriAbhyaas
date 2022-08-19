@@ -11,8 +11,8 @@
     align-items: center;
   }
   .card-image > img {
-    width: 200px;
-    height: 300px;
+    width: 200px ;
+    height: 300px !important;
     border-radius: 12px 12px 0px 0px;
   }
   .card-title {
